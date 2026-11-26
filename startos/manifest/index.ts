@@ -13,7 +13,7 @@ export const manifest = setupManifest({
   volumes: ['startos', 'data', 'uploads'],
   images: {
     trek: {
-      source: { dockerTag: 'mauriceboe/trek:5.2.0' },
+      source: { dockerTag: 'mauriceboe/trek:5.2.1' },
       arch: ['x86_64', 'aarch64'],
     },
   },
